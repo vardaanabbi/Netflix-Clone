@@ -1,0 +1,299 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    }
+
+body { background-color: black;}
+
+.main {
+    background-image: url("https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/blob/36b5b5745645de080da183dc7e634601810bea79/Video%2053/assets/images/bg.jpg?raw=true");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-size: max(1200px, 100vw);
+    }
+
+.main .box {
+    background-color: black;
+    height: 100vh;
+    opacity: 0.81;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+    max-width: 80vw;
+    
+}
+
+nav button { z-index: 10;
+position: relative;}
+
+nav img {
+    color: rgb(255, 0, 0);
+    width: 130px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+     gap: 25px; 
+    padding: 25px;
+
+}
+
+.hero> :nth-child(1) { 
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    width: 50vw;
+    
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    width: 40vw;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(83, 82, 82);
+}
+
+.btn {
+    font-weight: bold;
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.btn-red {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border: 0cap;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.btn-red-big {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    height: 56px;
+    font-weight: bolder;
+    width: 180px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    border: 0cap;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.input {
+    height: 56px;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    width: 243px;
+    border: 1px solid gray;
+    padding-left: 20px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.first { 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    max-width: 70vw;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+    
+    top: 61px;
+}
+.secImg img {
+    position: relative;
+    width: 555px ;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 77px;
+    right: 63px;
+    width: 425px;} 
+
+.sec_1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 80px;
+    }
+
+.sec_2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: 80px;
+
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.sec2 {
+    position: relative;
+    top: 61px;
+}
+
+.second {
+    position: relative;
+    right: 270px;
+    top: 25px;
+}
+
+.fourth {
+    position: relative;
+    top: 50px;
+}
+
+#txt2 {
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
+
+h2 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+}
+
+.faqbox {
+    background-color: #2d2d2d;
+    display: flex;
+    padding: 4px ;
+    width: 90%;
+    margin: auto;
+    margin-top: 12px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    height: 60px ;
+}
+
+.faq {
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.foot {
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top:25px ;
+    text-align: center;
+}
+
+#foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.footin {
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.footer_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin: auto;  
+    gap: 23px;
+}
+
+footer div a {color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+font-size: 16px;}
+
+@media screen and (max-width:650px) {
+     .footin {padding-right: 50px;
+    padding-left: 30px;
+}
+}
