@@ -148,7 +148,7 @@ nav img {
     color: white;
     max-width: 70vw;
     align-items: center;
-    flex-wrap: wrap;
+
 }
 
 .secImg {
@@ -158,7 +158,7 @@ nav img {
 }
 .secImg img {
     position: relative;
-    width: 555px ;
+    width: 545px ;
 
 }
 
